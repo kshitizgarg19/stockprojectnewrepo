@@ -47,7 +47,7 @@ st.markdown("<div class='title'>Stock Price Prediction</div>", unsafe_allow_html
 st.subheader("About Stock Price Prediction")
 
 st.write("""
-Stock Price Prediction empowers investors by providing precise predictions of stock prices 
+Stock Price Prediction empower investors by providing precise predictions of stock prices 
 through advanced machine learning algorithms. Our platform leverages state-of-the-art 
 techniques to analyze historical data, forecast trends, and assist users in making 
 informed investment decisions. 
