@@ -41,10 +41,10 @@ body {
 
 # Render the title and apply dark theme
 st.markdown(title_style, unsafe_allow_html=True)
-st.markdown("<div class='title'>Stock Price Forecasting</div>", unsafe_allow_html=True)
+st.markdown("<div class='title'>Stock Price Prediction</div>", unsafe_allow_html=True)
 
 # Summary section
-st.subheader("About Stock Price Forecasting")
+st.subheader("About Stock Price Prediction ")
 
 st.write("""
 Stock Price Prediction empower investors by providing precise predictions of stock prices 
