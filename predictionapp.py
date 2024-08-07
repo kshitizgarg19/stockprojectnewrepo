@@ -208,16 +208,23 @@ else:
 # Developer attribution aligned to the right
 # Developer attribution aligned to the right with icons
 # Developer attribution with clickable links
-st.markdown("""
-    <br><br><br>
-    <div style="text-align: right;">
-       <p style="font-weight: bold;">Developed and maintained by Kshitiz Garg</p> 
-       <p>GitHub: <a href="https://github.com/kshitizgarg19">GitHub</a></p>
-       <p>LinkedIn: <a href="https://www.linkedin.com/in/kshitiz-garg-898403207/">LinkedIn</a></p>
-       <p>Instagram: <a href="https://www.instagram.com/kshitiz_garg_19?igsh=aWVjaGE0NThubG80&utm_source=qr">Instagram</a></p>
-       <p>WhatsApp: <a href="https://wa.me/918307378790">Chat on WhatsApp</a></p>
-       <p>Email: <a href="mailto:kshitizgarg19@gmail.com">kshitizgarg19@gmail.com</a></p>
-    </div>
+# Enhanced Footer
+st.markdown(
+    """
+    <footer style="padding: 20px; background-color: #333; color: #fff; border-radius: 10px; text-align: center;">
+        <p style="font-size: 20px; font-weight: bold;">Developed and Maintained by Kshitiz Garg</p>
+        <p style="font-size: 16px;">Connect with me:</p>
+        <p>
+            <a href="https://github.com/kshitizgarg19" target="_blank" style="color: #00bcd4; text-decoration: none;">GitHub</a> |
+            <a href="https://www.linkedin.com/in/kshitiz-garg-898403207/" target="_blank" style="color: #00bcd4; text-decoration: none;">LinkedIn</a> |
+            <a href="https://www.instagram.com/kshitiz_garg_19?igsh=aWVjaGE0NThubG80&utm_source=qr" target="_blank" style="color: #00bcd4; text-decoration: none;">Instagram</a> |
+            <a href="https://wa.me/918307378790" target="_blank" style="color: #00bcd4; text-decoration: none;">WhatsApp</a> |
+            <a href="mailto:kshitizgarg19@gmail.com" style="color: #00bcd4; text-decoration: none;">Email</a>
+        </p>
+    </footer>
+    """,
+    unsafe_allow_html=True
+)
 """, unsafe_allow_html=True)
 
 
